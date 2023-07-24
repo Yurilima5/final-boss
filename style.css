@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+HEADER{
+    background-color: #252525;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+}
+figure{
+    border: solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw;
+}
+ ul{
+    border: solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+li :hover{
+    transform: scale(120%);
+    transition: 300ms;
+}
+main figure{
+    background-image: url("imagens-icons/shiba.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    border: solid red ;
+}
+.banner{
+    border: solid red;
+    background: rgb(252,69,226);
+    background: linear-gradient(98deg, rgba(252,69,226,1) 0%, rgba(229,73,121,1) 50%, rgba(252,69,226,1) 100%);
+    height: 100vh;
+
+}
+@media (max-width: 500px){
+    .sumir{
+    display: none;
+
+    }
+
+}
