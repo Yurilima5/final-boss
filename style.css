@@ -4,7 +4,7 @@
     margin: 0;
     list-style: none;
 }
-HEADER{
+header{
     background-color: #252525;
     color: #ffff;
     display: flex;
@@ -12,12 +12,12 @@ HEADER{
     justify-content: space-around;
     height: 12vh;
 }
-figure{
+header figure{
     border: solid purple;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 15vw;
+    width: 10vw;
 }
  ul{
     border: solid purple;
@@ -30,22 +30,72 @@ li :hover{
     transform: scale(120%);
     transition: 300ms;
 }
+
+main{
+    width: 100%;
+    height: 20vh; 
+    background: rgb(252,69,226);
+    background: linear-gradient(98deg, rgba(252,69,226,1) 0%, rgba(229,73,121,1) 60%, rgba(252,69,226,1) 100%);
+    height: 93vh;
+    
+}
+
 main figure{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+main h2{
+   
+    height: 13vh;
+    border: solid white;
+    text-align: center;
+    white-space: pre-line;
+}
+
+p{
+    display: flex;
+    border: solid tomato;
+    width: 10vw;
+}
+
+.pata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid black ;
+    padding-bottom: 20vh;
+}
+
+.line-1{
+   
     background-image: url("imagens-icons/shiba.png");
     background-repeat: no-repeat;
+    background-size: 45vh;
+    object-fit: contain;
+    height: 80vh;
+    border: solid red ;
+    background-position: bottom;
+}
+
+.linha2{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 40vh;
-    border: solid red ;
-}
-.banner{
-    border: solid red;
-    background: rgb(252,69,226);
-    background: linear-gradient(98deg, rgba(252,69,226,1) 0%, rgba(229,73,121,1) 50%, rgba(252,69,226,1) 100%);
+    justify-content:space-around;
+    width: 100%;
     height: 100vh;
-
+    border: solid blue;
 }
+
+.pitbull{
+    display: flex;
+    height: 40vh;
+border: solid red;
+}
+
 @media (max-width: 500px){
     .sumir{
     display: none;
