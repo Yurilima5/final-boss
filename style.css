@@ -21,14 +21,14 @@ header figure{
     justify-content: space-evenly;
     width: 10vw;
 }
- ul{
+.nav-1{
     
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 10vw;
 }
-li :hover{
+ li :hover{
     transform: scale(120%);
     transition: 300ms;
 }
@@ -37,7 +37,7 @@ main{
     width: 100%;
     background: rgb(252,69,226);
     background: linear-gradient(98deg, rgba(252,69,226,1) 0%, rgba(229,73,121,1) 60%, rgba(252,69,226,1) 100%);
-    height: 93vh;
+    /* height: 93vh; */
     
 }
 
@@ -62,10 +62,12 @@ main{
 }
 
 .segundaSessao{
-
 display: flex;
+/* flex-direction: column; */
 height: 80vh;
-
+align-items: center;
+justify-content: space-around;
+background-color: #ffff;
 }
 
 .firstP{
@@ -80,12 +82,15 @@ height: 80vh;
     background-size: 49vh;
     border: solid green;
     width: 75vw;
+    height: 80vh;
 }
 
 .terceiraSessao{
     background: rgb(252,69,178);
 background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53%, rgba(252,69,138,1) 100%);
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     height: 80vh;
 }
 
@@ -96,6 +101,7 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
     background-size: 49vh;
     border: solid red;
     width: 57vw;
+    height: 80vh;
 }
 
 .secondP{
@@ -103,9 +109,17 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
     white-space: pre-line;
 }
 
+.agradecimentos{
+    background-color: #ffff;
+    height: 28vh;
+}
+
 footer{
     display:flex;
-    
+    border: solid red;
+    height: 35vh;
+    background: rgb(252,69,226);
+    background: linear-gradient(98deg, rgb(233, 29, 165) 5%, rgba(229,73,121,1) 60%, rgb(252, 69, 160) 80%);
 }
 
 @media (max-width: 500px){
