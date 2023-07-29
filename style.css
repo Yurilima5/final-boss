@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    font-family: "Roboto", sans-serif;
+
 }
 header{
     background-color: #252525;
@@ -13,14 +15,14 @@ header{
     height: 12vh;
 }
 header figure{
-    border: solid purple;
+  
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 10vw;
 }
  ul{
-    border: solid purple;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -33,67 +35,77 @@ li :hover{
 
 main{
     width: 100%;
-    height: 20vh; 
     background: rgb(252,69,226);
     background: linear-gradient(98deg, rgba(252,69,226,1) 0%, rgba(229,73,121,1) 60%, rgba(252,69,226,1) 100%);
     height: 93vh;
     
 }
 
-main figure{
+.primeiraSessao{
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
+    background-image: url("imagens-icons/shiba.png");
+    background-size: 45vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 93vh;
 }
 
-main h2{
-   
-    height: 13vh;
-    border: solid white;
-    text-align: center;
+.boasVindas{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: solid red;
+    padding-bottom: 30vh;
+}
+
+.segundaSessao{
+
+display: flex;
+height: 80vh;
+
+}
+
+.firstP{
+    text-align: left;
     white-space: pre-line;
 }
 
-p{
-    display: flex;
-    border: solid tomato;
-    width: 10vw;
-}
-
-.pata{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: solid black ;
-    padding-bottom: 20vh;
-}
-
-.line-1{
-   
-    background-image: url("imagens-icons/shiba.png");
+.pitbul{
+    background-image: url("imagens-icons/pitbul.png");
     background-repeat: no-repeat;
-    background-size: 45vh;
-    object-fit: contain;
+    background-position: right bottom;
+    background-size: 49vh;
+    border: solid green;
+    width: 75vw;
+}
+
+.terceiraSessao{
+    background: rgb(252,69,178);
+background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53%, rgba(252,69,138,1) 100%);
+    display: flex;
     height: 80vh;
-    border: solid red ;
-    background-position: bottom;
 }
 
-.linha2{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    width: 100%;
-    height: 100vh;
-    border: solid blue;
+.dog{
+    background-image: url("imagens-icons/dog.png");
+    background-color: ;
+    background-repeat: no-repeat;
+    background-size: 49vh;
+    border: solid red;
+    width: 57vw;
 }
 
-.pitbull{
-    display: flex;
-    height: 40vh;
-border: solid red;
+.secondP{
+    text-align: left;
+    white-space: pre-line;
+}
+
+footer{
+    display:flex;
+    
 }
 
 @media (max-width: 500px){
