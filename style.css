@@ -110,8 +110,11 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
 }
 
 .agradecimentos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: #ffff;
-    height: 28vh;
+    height: 20vh;
 }
 
 footer{
@@ -121,6 +124,14 @@ footer{
     background: rgb(252,69,226);
     background: linear-gradient(98deg, rgb(233, 29, 165) 5%, rgba(229,73,121,1) 60%, rgb(252, 69, 160) 80%);
 }
+.atendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid tomato;
+}
+
+
 
 @media (max-width: 500px){
     .sumir{
