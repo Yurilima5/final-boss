@@ -33,6 +33,11 @@ header figure{
     transition: 300ms;
 }
 
+h1{
+    font-family: "roboto";
+    font-weight:bold;
+}
+
 main{
     width: 100%;
     background: rgb(252,69,226);
@@ -67,10 +72,12 @@ display: flex;
 height: 80vh;
 align-items: center;
 justify-content: space-around;
-background-color: #ffff;
+background-color: #f4f2f3;
 }
 
 .firstP{
+    display: flex;
+    align-items: center;
     text-align: left;
     white-space: pre-line;
 }
@@ -79,7 +86,7 @@ background-color: #ffff;
     background-image: url("imagens-icons/pitbul.png");
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 49vh;
+    background-size: 54vh;
     border: solid green;
     width: 75vw;
     height: 80vh;
@@ -95,7 +102,7 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
 }
 
 .dog{
-    background-image: url("imagens-icons/dog.png");
+    background-image: url("imagens-icons/dog-2.png");
     background-color: ;
     background-repeat: no-repeat;
     background-size: 49vh;
@@ -105,6 +112,8 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
 }
 
 .secondP{
+    display: flex;
+    align-items: center;
     text-align: left;
     white-space: pre-line;
 }
@@ -122,13 +131,15 @@ footer{
     border: solid red;
     height: 35vh;
     background: rgb(252,69,226);
-    background: linear-gradient(98deg, rgb(233, 29, 165) 5%, rgba(229,73,121,1) 60%, rgb(252, 69, 160) 80%);
+    background: linear-gradient(89deg, rgb(233, 29, 165) 7%, rgba(229,73,121,1) 60%, rgb(252, 69, 160) 80%);
 }
 .atendimento{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     border: solid tomato;
+    width: 10vw;
 }
 
 
@@ -138,5 +149,20 @@ footer{
     display: none;
 
     }
+}
+@media (max-width: 725px) {
+    
+.segundaSessao{
+    flex-direction: column;
 
+}
+.pitbul{
+    background-size: contain;
+}
+.terceiraSessao{
+    flex-direction: column-reverse;
+}
+.dog{
+    background-size: contain;
+}
 }
