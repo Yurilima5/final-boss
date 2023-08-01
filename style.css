@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    font-family: "Roboto", sans-serif;
+    
 
 }
 header{
@@ -34,8 +34,7 @@ header figure{
 }
 
 h1{
-    font-family: "roboto";
-    font-weight:bold;
+    font-family: "Roboto Serif";
 }
 
 main{
@@ -64,15 +63,19 @@ main{
     flex-direction: column;
     border: solid red;
     padding-bottom: 30vh;
+    white-space: pre-line;
+    text-align: center;
 }
 
 .segundaSessao{
-display: flex;
+    font-family: "Roboto Serif";
+    display: flex;
 /* flex-direction: column; */
 height: 80vh;
 align-items: center;
 justify-content: space-around;
 background-color: #f4f2f3;
+
 }
 
 .firstP{
@@ -103,8 +106,8 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
 
 .dog{
     background-image: url("imagens-icons/dog-2.png");
-    background-color: ;
     background-repeat: no-repeat;
+    background-position: bottom;
     background-size: 49vh;
     border: solid red;
     width: 57vw;
@@ -127,6 +130,7 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
 }
 
 footer{
+    padding-left: 5vw;
     display:flex;
     border: solid red;
     height: 35vh;
@@ -137,9 +141,31 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     border: solid tomato;
     width: 10vw;
+    margin-left: 8vw;
+}
+
+.segundaSessao button{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: #3A342F;
+    color: #ffff;
+    border: none;
+}
+.segundaSessao div{
+display: flex;
+justify-content: space-evenly;
+/* align-items: center; */
+flex-direction: column;
+height: 36vh;
+
+}
+button:hover{
+cursor: pointer;
+opacity: 0.5;
 }
 
 
