@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -33,9 +34,48 @@ header figure{
     transition: 300ms;
 }
 
-h1{
+.Boas{
+    font-family: "Roboto Serif";
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 38px;
+    /* <-----linha dos Titulos (início)-----> */
+}
+.banho{
+    font-family: "Roboto Serif";
+    color: #3A342F;
+    font-weight: bolder;
+    font-size: 28px;
+}
+.Mordomia{
+    font-family: "Roboto Serif";
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 28px;
+}
+.apoio{
+    font-family: 'Brygada 1918', serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FD6A9A;
+}
+.chinelo{
+    font-family: "Roboto Serif";
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FD6A9A;
+
+}
+.americanas{
+    font-family: 'Brygada 1918';
+    font-size: 26px;
+    color: #FD6A9A;
+
+}
+.footertitle{
     font-family: "Roboto Serif";
 }
+  /* <-----linha dos Titulos (fim)-----> */
 
 main{
     width: 100%;
@@ -70,19 +110,21 @@ main{
 .segundaSessao{
     font-family: "Roboto Serif";
     display: flex;
-/* flex-direction: column; */
-height: 80vh;
-align-items: center;
-justify-content: space-around;
-background-color: #f4f2f3;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    background-color: #f4f2f3;
 
 }
 
 .firstP{
+    font-family: "Roboto";
+    font-size: 20px;
     display: flex;
     align-items: center;
     text-align: left;
     white-space: pre-line;
+    color: #3A342F;
 }
 
 .pitbul{
@@ -91,34 +133,38 @@ background-color: #f4f2f3;
     background-position: right bottom;
     background-size: 54vh;
     border: solid green;
-    width: 75vw;
+    width: 60vw;
     height: 80vh;
 }
 
 .terceiraSessao{
-    background: rgb(252,69,178);
-background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53%, rgba(252,69,138,1) 100%);
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 80vh;
+    background: rgb(252,69,178);
+    background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53%, rgba(252,69,138,1) 100%);
 }
 
 .dog{
     background-image: url("imagens-icons/dog-2.png");
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 49vh;
+    background-size: contain;
+    /* object-fit: contain; (Não senti muita diferença com ou sem) */
     border: solid red;
-    width: 57vw;
+    width: 60vw;
     height: 80vh;
 }
 
 .secondP{
+    font-family: "Roboto";
+    font-size: 20px;
     display: flex;
     align-items: center;
     text-align: left;
     white-space: pre-line;
+    color: #FFFFFF;
 }
 
 .agradecimentos{
@@ -130,13 +176,22 @@ background: linear-gradient(180deg, rgba(252,69,178,1) 0%, rgba(229,73,121,1) 53
 }
 
 footer{
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     display:flex;
     border: solid red;
     height: 35vh;
     background: rgb(252,69,226);
     background: linear-gradient(89deg, rgb(233, 29, 165) 7%, rgba(229,73,121,1) 60%, rgb(252, 69, 160) 80%);
 }
+
+footer section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    color: #FFFFFF;
+}
+
 .atendimento{
     display: flex;
     flex-direction: column;
@@ -144,7 +199,7 @@ footer{
     align-items: flex-start;
     border: solid tomato;
     width: 10vw;
-    margin-left: 8vw;
+    /* margin-left: 8vw; */
 }
 
 .segundaSessao button{
@@ -161,6 +216,22 @@ justify-content: space-evenly;
 /* align-items: center; */
 flex-direction: column;
 height: 36vh;
+}
+
+.terceiraSessao button{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+}
+
+.terceiraSessao div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 36vh;
 }
 
 button:hover{
