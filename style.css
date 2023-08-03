@@ -257,11 +257,12 @@ opacity: 0.5;
 
 
 
-@media (max-width: 550px){
+@media (max-width: 650px){
     .sumir{
     display: none;
 
     }
+    
 }
 @media (max-width: 650px) {
     
@@ -279,6 +280,7 @@ opacity: 0.5;
     background-size: contain;
 }
 footer section{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -298,4 +300,17 @@ footer li, footer div{
     align-items: center;
 }
 
+.titulo-2, .aparecer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    border: solid;
+}
+
+}
+@media (min-width:700px){
+    .aparecer, .titulo-2{
+        display: none;
+    }
 }
