@@ -101,7 +101,6 @@ main{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    border: solid red;
     padding-bottom: 30vh;
     white-space: pre-line;
     text-align: center;
@@ -132,7 +131,6 @@ main{
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 54vh;
-    border: solid green;
     width: 60vw;
     height: 80vh;
 }
@@ -152,7 +150,6 @@ main{
     background-position: bottom;
     background-size: contain;
     /* object-fit: contain; (Não senti muita diferença com ou sem) */
-    border: solid red;
     width: 60vw;
     height: 80vh;
 }
@@ -178,7 +175,6 @@ main{
 footer{
     /* padding-left: 5vw; */
     display:flex;
-    border: solid red;
     height: 35vh;
     background: rgb(252,69,226);
     background: linear-gradient(89deg, rgb(233, 29, 165) 7%, rgba(229,73,121,1) 60%, rgb(252, 69, 160) 80%);
@@ -192,6 +188,7 @@ footer section{
     color: #FFFFFF;
 }
 footer div{
+    border: none;
     justify-content: space-evenly;
     height: 20vh;
 }
@@ -208,7 +205,6 @@ footer div li{
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    border: solid tomato;
     width: 20vw;
     /* margin-left: 8vw; */
 }
@@ -222,6 +218,7 @@ footer div li{
     border: none;
     font-family: "Roboto";
     font-size: 18px;
+    flex-wrap: wrap;
 }
 .segundaSessao div{
 display: flex;
@@ -295,8 +292,9 @@ footer li, footer div{
     width: 30vw;
 }
 .atendimento{
-    width: 30vw;
+    width: 38vw;
     flex-direction: column;
+    height: 20vh;
     align-items: center;
 }
 
@@ -305,11 +303,15 @@ footer li, footer div{
     align-items: center;
     justify-content: center;
     width: 35vw;
-    border: solid;
+    
+
 }
+
+
 
 }
 @media (min-width:700px){
+     
     .aparecer, .titulo-2{
         display: none;
     }
