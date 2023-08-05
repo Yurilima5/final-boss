@@ -205,12 +205,12 @@ footer div li{
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    width: 20vw;
+
     /* margin-left: 8vw; */
 }
 
 .segundaSessao button{
-    width: 10vw;
+    width: 160px;
     height: 7vh;
     border-radius: 20px;
     background-color: #3A342F;
@@ -229,7 +229,7 @@ height: 36vh;
 }
 
 .terceiraSessao button{
-    width: 10vw;
+    width: 160px;
     height: 7vh;
     border-radius: 20px;
     background-color: #ffffff;
@@ -254,14 +254,12 @@ opacity: 0.5;
 
 
 
-@media (max-width: 650px){
+
+@media (max-width: 650px) {
     .sumir{
     display: none;
-
-    }
     
-}
-@media (max-width: 650px) {
+    }
     
 .segundaSessao{
     flex-direction: column;
